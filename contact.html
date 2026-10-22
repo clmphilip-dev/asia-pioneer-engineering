@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us | Asia Pioneer Engineering Limited</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header">
+    <nav class="nav-container">
+      <a href="index.html" class="logo">
+        <div class="logo-icon">AP</div>
+        <div>
+          <div>Asia Pioneer</div>
+          <div style="font-size:0.75rem;font-weight:500;color:#e85d04;">卓亞工程有限公司</div>
+        </div>
+      </a>
+      <button class="mobile-menu-btn" onclick="toggleMenu()">☰</button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero" style="padding: 3.5rem 1.5rem;">
+    <div class="hero-content">
+      <h1>Contact Us</h1>
+      <div class="chinese">聯絡我們</div>
+      <p>We welcome enquiries for building construction, A&A works, and engineering projects.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="contact-grid">
+        <div class="contact-info">
+          <h3>Get in Touch</h3>
+          <div class="contact-item">
+            <div class="icon">📍</div>
+            <div>
+              <strong>Office Address</strong><br>
+              Room 501, 5th Floor, Wah Shing Centre<br>
+              11-13 Shing Yip Street, Kwun Tong<br>
+              Kowloon, Hong Kong<br>
+              <span style="color:var(--text-light);font-size:0.9rem;">香港觀塘成業街11-13號<br>華成工商中心5樓501室</span>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="icon">📞</div>
+            <div>
+              <strong>Telephone</strong><br>
+              (852) 2389 9818
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="icon">📟</div>
+            <div>
+              <strong>Fax</strong><br>
+              (852) 2191 2123
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="icon">✉️</div>
+            <div>
+              <strong>Email</strong><br>
+              <a href="mailto:info@asiapioneer.com.hk">info@asiapioneer.com.hk</a>
+            </div>
+          </div>
+        </div>
+        <div>
+          <h3>Company Credentials</h3>
+          <div style="background:white;padding:1.5rem;border-radius:12px;box-shadow:var(--shadow);">
+            <p><strong>Registered General Building Contractor (RGBC)</strong></p>
+            <p>Registration No.: GBC 17/2015</p>
+            <p>Expiry: 29 January 2028</p>
+            <hr style="margin:1rem 0;border:none;border-top:1px solid var(--border);">
+            <p><strong>ISO Certifications</strong> (valid until 22 August 2026)</p>
+            <ul style="margin:0.5rem 0 0 1.25rem;color:var(--text-light);">
+              <li>ISO 9001:2015 — Quality Management System</li>
+              <li>ISO 14001:2015 — Environmental Management System</li>
+              <li>ISO 45001:2018 — Occupational Health & Safety</li>
+            </ul>
+            <p style="margin-top:1rem;font-size:0.9rem;color:var(--text-light);">Certification scope: Construction of Building</p>
+          </div>
+          <div style="margin-top:1.5rem;background:#fffbeb;padding:1.25rem;border-radius:8px;border-left:4px solid var(--accent);">
+            <p style="margin:0;"><strong>Business Hours</strong><br>Monday to Friday: 9:00 AM – 6:00 PM<br>Saturday: By appointment</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-content">
+      <div>
+        <h4>Asia Pioneer Engineering Limited</h4>
+        <p>卓亞工程有限公司</p>
+        <p style="margin-top:0.5rem;">Founded 2009 | RGBC Registered</p>
+      </div>
+      <div>
+        <h4>Quick Links</h4>
+        <p><a href="index.html">Home</a></p>
+        <p><a href="about.html">About</a></p>
+        <p><a href="projects.html">Projects</a></p>
+      </div>
+      <div>
+        <h4>Office</h4>
+        <p>Room 501, 5/F, Wah Shing Centre<br>11-13 Shing Yip Street, Kwun Tong<br>Kowloon, Hong Kong</p>
+      </div>
+    </div>
+    <div class="footer-bottom">© 2026 Asia Pioneer Engineering Limited. All rights reserved.</div>
+  </footer>
+
+  <script>
+    function toggleMenu() {
+      document.getElementById('navLinks').classList.toggle('active');
+    }
+  </script>
+</body>
+</html>
