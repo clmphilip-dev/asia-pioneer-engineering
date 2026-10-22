@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="zh-HK">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>聯絡我們 | 卓亞工程有限公司</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header">
+    <nav class="nav-container">
+      <a href="index-zh.html" class="logo">
+        <img src="images/logo.png" alt="卓亞工程有限公司 Asia Pioneer Engineering Limited" class="logo-img">
+      </a>
+      <button class="mobile-menu-btn" onclick="toggleMenu()">☰</button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index-zh.html">主頁</a></li>
+        <li><a href="about-zh.html">關於我們</a></li>
+        <li><a href="projects-zh.html">工程項目</a></li>
+        <li><a href="contact-zh.html" class="active">聯絡我們</a></li>
+        <li><a href="contact.html" style="font-size:0.85rem;opacity:0.7;">EN</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero" style="padding: 3.5rem 1.5rem;">
+    <div class="hero-content">
+      <h1>聯絡我們</h1>
+      <div class="chinese">Contact Us</div>
+      <p>歡迎查詢建築工程、改建加建及工程項目。</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="contact-grid">
+        <div class="contact-info">
+          <h3>聯絡資料</h3>
+          <div class="contact-item">
+            <div class="icon">📍</div>
+            <div>
+              <strong>辦公室地址</strong><br>
+              香港九龍觀塘成業街11-13號<br>
+              華成工商中心5樓501室<br>
+              <span style="color:var(--text-light);font-size:0.9rem;">Room 501, 5/F, Wah Shing Centre<br>11-13 Shing Yip Street, Kwun Tong<br>Kowloon, Hong Kong</span>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="icon">📞</div>
+            <div>
+              <strong>電話</strong><br>
+              (852) 2389 9818
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="icon">📟</div>
+            <div>
+              <strong>傳真</strong><br>
+              (852) 2191 2123
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="icon">✉️</div>
+            <div>
+              <strong>電郵</strong><br>
+              <a href="mailto:info@asiapioneer.com.hk">info@asiapioneer.com.hk</a>
+            </div>
+          </div>
+        </div>
+        <div>
+          <h3>公司資歷</h3>
+          <div style="background:white;padding:1.5rem;border-radius:12px;box-shadow:var(--shadow);">
+            <p><strong>註冊一般建築承建商（RGBC）</strong></p>
+            <p>註冊編號：GBC 17/2015</p>
+            <hr style="margin:1rem 0;border:none;border-top:1px solid var(--border);">
+            <p><strong>ISO 認證</strong></p>
+            <ul style="margin:0.5rem 0 0 1.25rem;color:var(--text-light);">
+              <li>ISO 9001:2015 — 品質管理系統</li>
+              <li>ISO 14001:2015 — 環境管理系統</li>
+              <li>ISO 45001:2018 — 職業健康及安全管理</li>
+            </ul>
+            <p style="margin-top:1rem;font-size:0.9rem;color:var(--text-light);">認證範圍：建築工程</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-content">
+      <div>
+        <h4>卓亞工程有限公司</h4>
+        <p>Asia Pioneer Engineering Limited</p>
+        <p style="margin-top:0.5rem;">成立於2009年 | RGBC 註冊</p>
+      </div>
+      <div>
+        <h4>快速連結</h4>
+        <p><a href="index-zh.html">主頁</a></p>
+        <p><a href="about-zh.html">關於我們</a></p>
+        <p><a href="projects-zh.html">工程項目</a></p>
+      </div>
+      <div>
+        <h4>辦公室</h4>
+        <p>九龍觀塘成業街11-13號<br>華成工商中心5樓501室</p>
+      </div>
+    </div>
+    <div class="footer-bottom">© 2026 卓亞工程有限公司。版權所有。</div>
+  </footer>
+
+  <script>
+    function toggleMenu() {
+      document.getElementById('navLinks').classList.toggle('active');
+    }
+  </script>
+</body>
+</html>
