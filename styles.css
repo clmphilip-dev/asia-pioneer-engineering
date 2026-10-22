@@ -52,16 +52,18 @@ a:hover {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 70px;
+  height: 80px;
 }
 
 .logo {
   display: flex;
   align-items: center;
-  gap: 12px;
-  font-weight: 700;
-  font-size: 1.1rem;
-  color: var(--primary);
+}
+
+.logo-img {
+  height: 48px;
+  width: auto;
+  object-fit: contain;
 }
 
 .logo-icon {
@@ -374,7 +376,7 @@ a:hover {
   .nav-links {
     display: none;
     position: absolute;
-    top: 70px;
+    top: 80px;
     left: 0;
     right: 0;
     background: white;
